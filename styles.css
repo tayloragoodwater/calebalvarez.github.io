@@ -1,0 +1,45 @@
+@font-face {
+    font-family: palatino;
+    src: url(palatino.ttf);
+  }
+.header{
+    background-color: #242424;
+    height: 100vh;
+    text-align: left;
+    padding-left: 32px;
+    min-width:fit-content;
+    
+}
+h1{
+    color: white;
+    font-family:palatino;
+    font-size:32px;
+    letter-spacing: 4px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+p{
+    color: white;
+    font-family:palatino;
+    font-size: 16px;
+    letter-spacing:2px;
+    padding-top:8px;
+}
+.content{
+    background-color: #242424;
+    height:100vh;
+    overflow-y: auto;
+    padding-top:16px;
+    
+}
+.column{
+    margin-right: -8px;
+    min-width: 40vh;
+    background-color: #242424;
+    
+}
+img{
+    margin-bottom: 12px;
+    max-width: 100%;
+    min-width: 100%;
+}
